@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 20px 0;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.cta {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #e68a00;
+}
+
+.benefits {
+    padding: 20px;
+}
+
+.benefits h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.benefits li img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.testimonials {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.testimonial {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.testimonial p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.description {
+    padding: 20px;
+}
+
+.description h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.description p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+}
+
+.lead-capture {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.lead-capture h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+form input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #e68a00;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
